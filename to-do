@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <title>
+            To-do-list
+        </title>
+    </head>
+    <body id="backdrop">
+        <div class="centre">
+            <h1 class="h1" style="color: bisque;">
+                Organize your<br>work and life equally.
+            </h1>
+            <p style="font-size:40px;" style="color: bisque;"> Todolist. </p>
+            <h2 class="h2" style="font-style: italic;"  style="color: beige;">Get your To-do</h2>
+        </div>
+        <div id="tb">
+            <div class="in">
+                <input type="text" id="taskInput" placeholder="Task...">
+                <button id="addButton">Add Task</button>
+            </div>
+            <ul id="taskList"></ul>
+            <p id="errorMessage" class="error-message"></p>
+            <script src="todo.js"></script>
+        </div>
+    </body>
+</html>
